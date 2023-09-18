@@ -1,0 +1,14 @@
+body {
+  background-color: #fff;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: rgb(10, 32, 94);
+  color: white;
+  border: none;
+  font-size: 24px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  padding: 4px 10px;
+}
