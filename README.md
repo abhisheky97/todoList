@@ -1,8 +1,37 @@
-# React + Vite
+### Running the App locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Clone the repository**
 
-Currently, two official plugins are available:
+  ```sh
+  git clone https://github.com/abhisheky97/todoList
+  ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Navigate to the project directory:**
+
+  ```sh
+  cd todoList
+  ```
+
+- **Install the dependencies:**
+
+  ```sh
+  npm install
+  ```
+
+- **Start the development server:**
+
+  ```sh
+  npm run dev
+  ```
+
+  The app should now be running at `http://localhost:5173`.
+
+- **Stop the development server:**
+
+  Press `Ctrl + C`
+
+### Running the App With Docker
+
+```sh
+docker run -p 5173:5173 abhisheky97/todo-app:latest
+```
