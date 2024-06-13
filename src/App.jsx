@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useReducer } from 'react'
+import { useRef, useReducer } from 'react'
 import TodoList from './TodoList'
 import { ADD_TODO, CLEAR_TODOS, TOGGLE_TODO } from './Actions'
 import reducer from './Reducer'
