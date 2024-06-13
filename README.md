@@ -33,5 +33,5 @@
 ### Running the App With Docker
 
 ```sh
-docker run -p 5173:5173 abhisheky97/todo-app:latest
+docker run -p 5000:5000 abhisheky97/todo-app:latest
 ```
