@@ -1,8 +1,8 @@
-import React from 'react'
+import PropTypes from "prop-types";
 
 export default function Todo({ todo, toggleTodo }) {
   function handleTodoClick() {
-    toggleTodo(todo.id)
+    toggleTodo(todo.id);
   }
 
   return (
@@ -16,5 +16,14 @@ export default function Todo({ todo, toggleTodo }) {
         {todo.name}
       </label>
     </div>
-  )
+  );
 }
+
+Todo.propTypes = {
+  todo: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    complete: PropTypes.bool.isRequired,
+  }).isRequired,
+  toggleTodo: PropTypes.func.isRequired,
+};
